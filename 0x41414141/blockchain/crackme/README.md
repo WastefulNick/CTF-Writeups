@@ -1,4 +1,4 @@
-# Crack Me
+# Crackme.sol
 We were given the challenge text:
 ```
 the fact that everything can be turned into a crackme is so cool

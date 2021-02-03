@@ -1,4 +1,4 @@
 # Misc
-- [file reader](misc/file_reader)
-- [optimizer](misc/optimizer)
-- [pyjail](misc/pyjail)
+- [file reader](file_reader)
+- [optimizer](optimizer)
+- [pyjail](pyjail)
