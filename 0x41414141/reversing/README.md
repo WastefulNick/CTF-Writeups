@@ -1,3 +1,3 @@
 # Reversing
-- [ware](reversing/ware)
-- [x and or](reversing/x_and_or)
+- [ware](ware)
+- [x and or](x_and_or)

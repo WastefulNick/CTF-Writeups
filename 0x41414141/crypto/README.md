@@ -1,2 +1,2 @@
 # Crypto
-- [factorize](crypto/factorize)
+- [factorize](factorize)
