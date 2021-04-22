@@ -7,6 +7,9 @@
 ## Hardware
 
 ## Misc
+- [Alien Camp](misc/alien_camp)
+- [Build yourself in](misc/build_yourself_in)
+- [Input as a Service](misc/input_as_a_service)
 
 ## Reversing
 
