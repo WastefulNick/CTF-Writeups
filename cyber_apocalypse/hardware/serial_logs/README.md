@@ -1,5 +1,9 @@
 # Serial Logs
 
+Challenge text:
+```
+We have gained physical access to the debugging interface of the Access Control System which is based on a Raspberry Pi-based IoT device. We believe that the log messages of this device contain valuable information of when our asset was abducted.
+```
 We are given the file [serial_logs.sal](serial_logs.sal). After a bit of research, I figure out that you can open these files using [Saleae's Logic 2 software](https://support.saleae.com/logic-software/sw-download).
 
 ![File loaded in Logic 2](logic2.png)

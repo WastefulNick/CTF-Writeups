@@ -1,5 +1,9 @@
 # Off the grid
 
+Challenge text:
+```
+One of our agents managed to store some valuable information in an air-gapped hardware password manage and delete any trace of them in our network before it got compromised by the invaders but the device got damaged during transportation and its OLED screen broke. We need help to recover the information stored in it!
+```
 We are given the file [off_the_grid.sal](challenge_files/off_the_grid.sal) along with [schematic.png](challenge_files/schematic.png). From the [serial logs challenge](../serial_logs) we know we need to use [Saleae's Logic 2 software](https://support.saleae.com/logic-software/sw-download) for the .sal file.
 
 ![The included schematic](challenge_files/schematic.png)

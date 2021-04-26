@@ -12,7 +12,7 @@ The webpage had a form where you could submit your favorite song, which got send
     "song.name": "ASTa la vista baby"
 }
 ```
-As we see in the source code, the request body is [unflattened](https://www.npmjs.com/package/flat), before later worked on. Due to this, and the hints from the song names, I assumed that the site was vulnerable to AST injection via prototype pollution. 
+As we see in the source code, the request body is [unflattened](https://www.npmjs.com/package/flat), before it's later worked on. Due to this, and the hints from the song names, I assumed that the site was vulnerable to AST injection via prototype pollution. 
 
 I found [this great blog post explaining it](https://blog.p6.is/AST-Injection/), and a working payload at the bottom.
 ```json

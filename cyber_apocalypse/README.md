@@ -1,6 +1,9 @@
 # Cyber Apocalypse 2021
 
 ## Crypto
+- [Phasestream 1](crypto/phasestream_1) - 1217 solves / 300 points
+- [Phasestream 2](crypto/phasestream_2) - 919 solves / 300 points
+- [Phasestream 4](crypto/phasestream_4) - 334 solves / 300 points
 
 ## Forensics
 
